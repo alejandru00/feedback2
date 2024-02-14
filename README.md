@@ -124,7 +124,7 @@ existen.
     <footer>
         <div>
             <h2>Contador de Visitas.</h2>
-            <p>Número de visitas: <span id="contador">0</span></p>
+            <p>Número de visitas: <span id="contador">0</span></p>              <!-- Contador de visitas (Ej 3) -->
         </div>
     </footer>
 </body>
