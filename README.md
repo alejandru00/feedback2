@@ -2,9 +2,8 @@
 
 ## Nombre completo: Alejandro Martínez Ronda
 ## Repositorio:
-    - Usuario github: alejandru00
-    - Link repositorio:
-[Github: https://github.com/alejandru00/feedback2.git]
+- Usuario github: alejandru00
+- Link repositorio: [Github: https://github.com/alejandru00/feedback2.git]
 
 ------------------------------------------------
 
