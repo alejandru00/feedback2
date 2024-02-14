@@ -1,15 +1,16 @@
 # Feedback 2 - Informatica II
 
 ## Nombre completo: Alejandro Martínez Ronda
-## Usuario github: alejandru00
-## Link repositorio:
+## Repositorio:
+    - Usuario github: alejandru00
+    - Link repositorio:
 [Github: https://github.com/alejandru00/feedback2.git]
 
 ------------------------------------------------
 
 # Enunciado:
 
-Dado el siguiente código fuente de una página web index.html y su estilo sytles.css, adjuntos a
+Dado el siguiente código fuente de una página web `index.html` y su estilo `sytles.css`, adjuntos a
 este enunciado. 
 
 ### Archivo HTML: index.html
