@@ -1,0 +1,15 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+   }
+
+#contenido {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #formulario {
+    margin-top: 20px;
+   }
