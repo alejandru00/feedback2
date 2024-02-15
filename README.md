@@ -256,16 +256,27 @@ Cuando el usuario vuelve a cargar la página, rellena los campos del formulario 
 datos guardados, si existen...
  */
 
-function autoguardado() {
-    var nombre = localStorage.getItem("nombre").value;
-    var edad = localStorage.getItem("edad").value;
+function guardarFormulario() {
+    const nombre = document.getElementById('nombre').value;
+    const edad = document.getElementById('edad').value;
 
-    if (nombre !== null || edad !== null) {
-        document.getElementById('nombre').value = nombre;
-        document.getElementById('edad').value = edad;
+    localStorage.setItem('nombre', nombre);
+    localStorage.setItem('edad', edad);
+}
+
+function cargarFormulario() {
+    const nombreGuardado = localStorage.getItem('nombre');
+    const edadGuardada = localStorage.getItem('edad');
+
+    if (nombreGuardado) {
+        document.getElementById('nombre').value = nombreGuardado;
+    }
+    if (edadGuardada) {
+        document.getElementById('edad').value = edadGuardada;
     }
 }
+
 document.addEventListener('DOMContentLoaded', function() {
-    autoguardado();
+    guardarFormulario();
 });
 ```
