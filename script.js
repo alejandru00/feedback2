@@ -107,7 +107,6 @@ function guardarFormulario() {
     localStorage.setItem('edad', edad);
 }
 
-// Función para cargar los valores del formulario desde localStorage
 function cargarFormulario() {
     const nombreGuardado = localStorage.getItem('nombre');
     const edadGuardada = localStorage.getItem('edad');
@@ -119,6 +118,7 @@ function cargarFormulario() {
         document.getElementById('edad').value = edadGuardada;
     }
 }
+
 document.addEventListener('DOMContentLoaded', function() {
     guardarFormulario();
 });
